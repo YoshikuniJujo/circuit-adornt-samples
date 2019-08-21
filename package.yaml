@@ -22,6 +22,10 @@ description:         Please see the README on GitHub at <https://github.com/gith
 dependencies:
 - base >= 4.7 && < 5
 - circuit-adornt-build
+- circuit-adornt-parts
+- circuit-adornt-simulate
+- monads-tf
+- containers
 
 library:
   source-dirs: src
