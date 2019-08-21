@@ -3,7 +3,21 @@
 # For more information, please see the documentation at:
 #   https://docs.haskellstack.org/en/stable/lock_files
 
-packages: []
+packages:
+- completed:
+    cabal-file:
+      size: 1874
+      sha256: 703cdb13a79445e647f28f5265684bdff2eefbbd8dc4737c8ce2947c901e542b
+    name: circuit-adornt-build
+    version: 0.1.0.0
+    git: https://github.com/YoshikuniJujo/circuit-adornt-build.git
+    pantry-tree:
+      size: 849
+      sha256: b3f2d18404c97207c5dad3e5ab36ccac1f8fb87c2e5a2e468dc9304e80372ace
+    commit: dcc8a190e4620713462631db41ca886b58ba52c5
+  original:
+    git: https://github.com/YoshikuniJujo/circuit-adornt-build.git
+    commit: dcc8a190e4620713462631db41ca886b58ba52c5
 snapshots:
 - completed:
     size: 523448
