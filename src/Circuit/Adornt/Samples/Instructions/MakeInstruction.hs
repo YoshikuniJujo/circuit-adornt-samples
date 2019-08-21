@@ -1,7 +1,7 @@
 {-# LANGUAGE BinaryLiterals #-}
 {-# OPTIONS_GHC -Wall -fno-warn-tabs #-}
 
-module Instructions.MakeInstruction (Reg(..), Inst(..), encodeInst) where
+module Circuit.Adornt.Samples.Instructions.MakeInstruction (Reg(..), Inst(..), encodeInst) where
 
 import Data.Bits
 import Data.Word

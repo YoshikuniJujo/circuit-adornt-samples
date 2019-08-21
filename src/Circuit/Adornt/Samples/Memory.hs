@@ -1,6 +1,6 @@
 {-# OPTIONS_GHC -Wall -fno-warn-tabs #-}
 
-module Samples.Memory where
+module Circuit.Adornt.Samples.Memory where
 
 import Control.Monad
 import Data.Word
@@ -9,7 +9,7 @@ import Circuit.Adornt.Simulator
 import Circuit.Adornt.Parts
 import Circuit.Adornt.Builder
 
-import Samples.Clock
+import Circuit.Adornt.Samples.Clock
 import Tools
 
 testDlatch :: CircuitBuilder (Clock, IWire, OWire, OWire)

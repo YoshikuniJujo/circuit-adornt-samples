@@ -1,6 +1,6 @@
 {-# OPTIONS_GHC -Wall -fno-warn-tabs #-}
 
-module Samples.AluController where
+module Circuit.Adornt.Samples.AluController where
 
 import Circuit.Adornt.Builder
 import Circuit.Adornt.Parts

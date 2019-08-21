@@ -1,6 +1,6 @@
 {-# OPTIONS_GHC -Wall -fno-warn-tabs #-}
 
-module Samples.ImmGen where
+module Circuit.Adornt.Samples.ImmGen where
 
 import Circuit.Adornt.Builder
 import Circuit.Adornt.Parts

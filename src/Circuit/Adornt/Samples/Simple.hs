@@ -1,7 +1,7 @@
 {-# LANGUAGE TupleSections #-}
 {-# OPTIONS_GHC -fno-warn-tabs #-}
 
-module Samples.Simple () where
+module Circuit.Adornt.Samples.Simple () where
 
 import Control.Arrow
 import Control.Monad

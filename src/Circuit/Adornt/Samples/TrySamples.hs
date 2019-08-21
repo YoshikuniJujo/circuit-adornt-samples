@@ -1,22 +1,22 @@
 {-# OPTIONS_GHC -fno-warn-tabs #-}
 
-module Samples.TrySamples () where
+module Circuit.Adornt.Samples.TrySamples () where
 
 import Data.Word
 
 import Circuit.Adornt.Simulator
 import Circuit.Adornt.Builder
 
-import Samples.Simple
-import Samples.Alu
-import Samples.Clock
-import Samples.Memory
-import Samples.RiscvUnits
-import Samples.ControlPla
-import Samples.AluController
+import Circuit.Adornt.Samples.Simple
+import Circuit.Adornt.Samples.Alu
+import Circuit.Adornt.Samples.Clock
+import Circuit.Adornt.Samples.Memory
+import Circuit.Adornt.Samples.RiscvUnits
+import Circuit.Adornt.Samples.ControlPla
+import Circuit.Adornt.Samples.AluController
 
-import Samples.SingleCycle
-import Instructions.SampleInstructions
+import Circuit.Adornt.Samples.SingleCycle
+import Circuit.Adornt.Samples.Instructions.SampleInstructions
 
 {-
 sampleLoadInst, sampleStoreInst, sampleSubInst, sampleAddInst, sampleBeqInst :: Word64

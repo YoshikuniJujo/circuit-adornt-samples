@@ -1,6 +1,6 @@
 {-# OPTIONS_GHC -Wall -fno-warn-tabs #-}
 
-module Samples.RiscvUnits where
+module Circuit.Adornt.Samples.RiscvUnits where
 
 import Data.Word
 
@@ -8,7 +8,7 @@ import Circuit.Adornt.Simulator
 import Circuit.Adornt.Parts
 import Circuit.Adornt.Builder
 
-import Samples.Memory
+import Circuit.Adornt.Samples.Memory
 
 data ProgramCounter = ProgramCounter {
 	pcClock :: IWire, pcInput :: IWire, pcOutput :: OWire,

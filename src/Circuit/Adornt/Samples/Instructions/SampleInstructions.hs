@@ -1,10 +1,10 @@
 {-# OPTIONS_GHC -Wall -fno-warn-tabs #-}
 
-module Instructions.SampleInstructions where
+module Circuit.Adornt.Samples.Instructions.SampleInstructions where
 
 import Data.Word
 
-import Instructions.MakeInstruction
+import Circuit.Adornt.Samples.Instructions.MakeInstruction
 
 sampleLoadInstructions :: [Word64]
 sampleLoadInstructions = encodeInst <$> [

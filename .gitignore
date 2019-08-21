@@ -2,3 +2,4 @@
 circuit-adornt-samples.cabal
 *~
 .html/
+.*.swp

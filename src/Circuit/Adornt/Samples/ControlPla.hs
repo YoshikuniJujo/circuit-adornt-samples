@@ -1,7 +1,7 @@
 {-# LANGUAGE BinaryLiterals #-}
 {-# OPTIONS_GHC -Wall -fno-warn-tabs #-}
 
-module Samples.ControlPla where
+module Circuit.Adornt.Samples.ControlPla where
 
 import Circuit.Adornt.Builder
 import Circuit.Adornt.Parts

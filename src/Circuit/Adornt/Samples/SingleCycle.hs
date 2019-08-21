@@ -1,17 +1,17 @@
 {-# OPTIONS_GHC -Wall -fno-warn-tabs #-}
 
-module Samples.SingleCycle where
+module Circuit.Adornt.Samples.SingleCycle where
 
 import Circuit.Adornt.Parts
 import Circuit.Adornt.Builder
 
-import Samples.RiscvUnits
-import Samples.Clock
-import Samples.Alu
-import Samples.Memory
-import Samples.ControlPla
-import Samples.AluController
-import Samples.ImmGen
+import Circuit.Adornt.Samples.RiscvUnits
+import Circuit.Adornt.Samples.Clock
+import Circuit.Adornt.Samples.Alu
+import Circuit.Adornt.Samples.Memory
+import Circuit.Adornt.Samples.ControlPla
+import Circuit.Adornt.Samples.AluController
+import Circuit.Adornt.Samples.ImmGen
 
 singleCycle :: CircuitBuilder (
 	Clock, ProgramCounter, InstructionMemory, RegisterFileWithSwitch,

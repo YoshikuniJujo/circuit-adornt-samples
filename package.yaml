@@ -30,7 +30,19 @@ dependencies:
 library:
   source-dirs: src
   exposed-modules:
+    - Circuit.Adornt.Samples.Alu
+    - Circuit.Adornt.Samples.AluController
     - Circuit.Adornt.Samples.CarryLookahead2
+    - Circuit.Adornt.Samples.Clock
+    - Circuit.Adornt.Samples.ControlPla
+    - Circuit.Adornt.Samples.ImmGen
+    - Circuit.Adornt.Samples.Memory
+    - Circuit.Adornt.Samples.RiscvUnits
+    - Circuit.Adornt.Samples.Simple
+    - Circuit.Adornt.Samples.SingleCycle
+    - Circuit.Adornt.Samples.TrySamples
+    - Circuit.Adornt.Samples.Instructions.MakeInstruction
+    - Circuit.Adornt.Samples.Instructions.SampleInstructions
 
 tests:
   circuit-adornt-samples-test:

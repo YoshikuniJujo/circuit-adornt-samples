@@ -1,7 +1,7 @@
 {-# LANGUAGE BinaryLiterals #-}
 {-# OPTIONS_GHC -Wall -fno-warn-tabs #-}
 
-module Samples.Alu where
+module Circuit.Adornt.Samples.Alu where
 
 import Circuit.Adornt.Parts
 import Circuit.Adornt.Builder

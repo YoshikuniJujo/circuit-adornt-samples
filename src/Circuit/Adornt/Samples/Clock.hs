@@ -1,6 +1,6 @@
 {-# OPTIONS_GHC -Wall -fno-warn-tabs #-}
 
-module Samples.Clock where
+module Circuit.Adornt.Samples.Clock where
 
 import Data.Word
 
